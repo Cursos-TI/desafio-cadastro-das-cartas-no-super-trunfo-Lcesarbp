@@ -8,7 +8,7 @@
 
 int main() {
 
-    //Declaração de variaveis
+   //Declaração de variaveis
 
     char Estado;
     char codigodacarta[10];
@@ -32,7 +32,7 @@ int main() {
     printf("O código da carta cadastrado é: %s\n", codigodacarta);
 
     printf("Insira o nome da cidade:\n");
-    scanf(" %c", &nomedacidade);
+    scanf(" %s", &nomedacidade);
     printf("O nome cadastrado para a cidade é: %s\n", nomedacidade);
 
     printf("Insira o numero de população\n");
@@ -41,8 +41,24 @@ int main() {
 
     printf("Insira a area da cidade\n");
     scanf("%f", &area);
-    printf("A área da cidade é: %f Km2",area );
-    
+    printf("A área da cidade é: %f Km2\n",area );
+
+    printf("Insira o PIB da cidade:\n");
+    scanf("%f", &pib);
+    printf("O PIB da cidade é: %f\n", pib);
+
+    printf("Insira a quantidade de pontos turisticos\n");
+    scanf("%d", &numpontoturistico);
+    printf("A quantidade de pontos turisticos cadastrada é: %d\n", numpontoturistico);
+
+    printf("A carta que você cadastrou: \n");
+    printf("Estado: %c\n", Estado);
+    printf("Código da Carta: %s\n", codigodacarta);
+    printf("Nome da Cidade: %s\n", nomedacidade);
+    printf("População: %d\n", populacao);
+    printf("Área: %f Km2\n", area);
+    printf("PIB: %f Bilhões de Reais\n", pib);
+    printf("Números de pontos turísticos: %d\n", numpontoturistico);
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
