@@ -36,8 +36,12 @@ int main() {
     printf("O nome cadastrado para a cidade é: %s\n", nomedacidade);
 
     printf("Insira o numero de população\n");
-    scanf(" %i", &populacao);
-    printf("O numero de população é: %i", populacao);  
+    scanf(" %d", &populacao);
+    printf("O numero de população é: %d\n", populacao);  
+
+    printf("Insira a area da cidade\n");
+    scanf("%f", &area);
+    printf("A área da cidade é: %f Km2",area );
     
 
 
