@@ -29,7 +29,16 @@ int main() {
 
     printf("Insira o codigo da carta:\n");
     scanf("%s", &codigodacarta);
-    printf("O código da carta cadastrado é: %s", codigodacarta);
+    printf("O código da carta cadastrado é: %s\n", codigodacarta);
+
+    printf("Insira o nome da cidade:\n");
+    scanf(" %c", &nomedacidade);
+    printf("O nome cadastrado para a cidade é: %s\n", nomedacidade);
+
+    printf("Insira o numero de população\n");
+    scanf(" %i", &populacao);
+    printf("O numero de população é: %i", populacao);  
+    
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
