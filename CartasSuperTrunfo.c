@@ -8,7 +8,7 @@
 
 int main() {
 
-   //Declaração de variaveis
+   //Declaração de variaveis do código
 
     char Estado;
     char codigodacarta[10];
@@ -19,37 +19,49 @@ int main() {
     int numpontoturistico;
 
 
-    //cadastro do Estado
+    //cadastro e exibição do Estado
 
     printf("Insira um estado\n");
     scanf("%c", &Estado);
     printf("O Estado cadastrado é: %s \n");
 
-    //Cadastro do código da carta
+    //Cadastro e exibição do código da carta
 
     printf("Insira o codigo da carta:\n");
     scanf("%s", &codigodacarta);
     printf("O código da carta cadastrado é: %s\n", codigodacarta);
 
+    //Cadastro e exibição do nome da cidade
+
     printf("Insira o nome da cidade:\n");
     scanf(" %s", &nomedacidade);
     printf("O nome cadastrado para a cidade é: %s\n", nomedacidade);
+
+    //Cadastro e exibição do número da população
 
     printf("Insira o numero de população\n");
     scanf(" %d", &populacao);
     printf("O numero de população é: %d\n", populacao);  
 
+    //Cadastro e exibição da área da cidade
+
     printf("Insira a area da cidade\n");
     scanf("%f", &area);
     printf("A área da cidade é: %f Km2\n",area );
+
+    //Cadastro e exibição do PIB da cidade
 
     printf("Insira o PIB da cidade:\n");
     scanf("%f", &pib);
     printf("O PIB da cidade é: %f\n", pib);
 
+    //Cadastro e exibição do número de pontos turísticos
+
     printf("Insira a quantidade de pontos turisticos\n");
     scanf("%d", &numpontoturistico);
     printf("A quantidade de pontos turisticos cadastrada é: %d\n", numpontoturistico);
+
+    //Exibição dos atributos da carta cadastrada
 
     printf("A carta que você cadastrou: \n");
     printf("Estado: %c\n", Estado);
