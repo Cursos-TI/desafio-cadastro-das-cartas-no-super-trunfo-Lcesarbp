@@ -17,6 +17,9 @@ int main() {
     float area;
     float pib;
     int numpontoturistico;
+    float denpopulacional;
+    float pibpercapita;
+
 
 
     //cadastro e exibição do Estado
@@ -61,6 +64,14 @@ int main() {
     scanf("%d", &numpontoturistico);
     printf("A quantidade de pontos turisticos cadastrada é: %d\n", numpontoturistico);
 
+    //Calculo da densidade populacional
+
+    denpopulacional = populacao / area;
+
+    //Cálculo do PIB per Capita
+
+    pibpercapita = pib / populacao;
+
     //Exibição dos atributos da carta cadastrada
 
     printf("A carta que você cadastrou: \n");
@@ -71,6 +82,10 @@ int main() {
     printf("Área: %f Km2\n", area);
     printf("PIB: %f Bilhões de Reais\n", pib);
     printf("Números de pontos turísticos: %d\n", numpontoturistico);
+    printf("Densidade Populacional: %.2f \n", denpopulacional);
+    printf("PIB per Capita: %.2f", pibpercapita);
+
+    
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
