@@ -156,7 +156,7 @@ int main() {
     //Exibição dos atributos da carta 1 
 
     printf("A carta 1 que você cadastrou: \n");
-    printf("Estado: %c\n", Estado);
+    printf("Estado: %s\n", Estado);
     printf("Código da Carta: %s\n", codigodacarta);
     printf("Nome da Cidade: %s\n", nomedacidade);
     printf("População: %d\n", populacao);
@@ -170,7 +170,7 @@ int main() {
     //Exibição dos atributos da carta 2
 
     printf("A carta 2 que você cadastrou: \n");
-    printf("Estado: %c\n", Estado2);
+    printf("Estado: %s\n", Estado2);
     printf("Código da Carta: %s\n", codigodacarta2);
     printf("Nome da Cidade: %s\n", nomedacidade2);
     printf("População: %d\n", populacao2);
