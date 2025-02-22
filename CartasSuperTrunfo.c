@@ -12,7 +12,7 @@ int main() {
 
    //Declaração de variaveis carta 1
 
-    char Estado;
+    char Estado[5];
     char codigodacarta[10];
     char nomedacidade[60];
     int populacao;
@@ -25,7 +25,7 @@ int main() {
 
     //Declaração de variaveis carta 2
 
-    char Estado2;
+    char Estado2[5];
     char codigodacarta2[10];
     char nomedacidade2[60];
     int populacao2;
@@ -42,9 +42,9 @@ int main() {
 
     //cadastro e exibição do estado carta 1
 
-    printf("Insira um estado\n");
-    scanf("%c", &Estado);
-    printf("O Estado cadastrado é: %s \n");
+    printf("Insira um estado:\n");
+    scanf("%s", &Estado);
+    printf("O Estado cadastrado é: %s \n", Estado);
 
     //Cadastro e exibição do código da carta
 
@@ -97,8 +97,8 @@ int main() {
     //cadastro e exibição do estado carta 2
 
     printf("Insira um estado\n");
-    scanf("%c", &Estado2);
-    printf("O Estado cadastrado é: %s \n");
+    scanf("%s", &Estado2);
+    printf("O Estado cadastrado é: %s \n", Estado2);
 
     //Cadastro e exibição do código da carta
 
