@@ -43,19 +43,19 @@ int main() {
     //cadastro e exibição do estado carta 1
 
     printf("Insira um estado:\n");
-    scanf("%s", &Estado);
+    scanf("%s", Estado);
     printf("O Estado cadastrado é: %s \n", Estado);
 
     //Cadastro e exibição do código da carta
 
     printf("Insira o codigo da carta:\n");
-    scanf("%s", &codigodacarta);
+    scanf("%s", codigodacarta);
     printf("O código da carta cadastrado é: %s\n", codigodacarta);
 
     //Cadastro e exibição do nome da cidade
 
     printf("Insira o nome da cidade:\n");
-    scanf(" %s", &nomedacidade);
+    scanf(" %s", nomedacidade);
     printf("O nome cadastrado para a cidade é: %s\n", nomedacidade);
 
     //Cadastro e exibição do número da população
@@ -97,19 +97,19 @@ int main() {
     //cadastro e exibição do estado carta 2
 
     printf("Insira um estado\n");
-    scanf("%s", &Estado2);
+    scanf("%s", Estado2);
     printf("O Estado cadastrado é: %s \n", Estado2);
 
     //Cadastro e exibição do código da carta
 
     printf("Insira o codigo da carta:\n");
-    scanf("%s", &codigodacarta2);
+    scanf("%s", codigodacarta2);
     printf("O código da carta cadastrado é: %s\n", codigodacarta2);
 
     //Cadastro e exibição do nome da cidade
 
     printf("Insira o nome da cidade:\n");
-    scanf(" %s", &nomedacidade2);
+    scanf(" %s", nomedacidade2);
     printf("O nome cadastrado para a cidade é: %s\n", nomedacidade2);
 
     //Cadastro e exibição do número da população
