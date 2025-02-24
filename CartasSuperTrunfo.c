@@ -42,45 +42,45 @@ int main() {
 
     //cadastro e exibição do estado carta 1
 
-    printf("Insira um estado:\n");
+    printf("Insira um estado: ");
     scanf("%s", Estado);
-    printf("O Estado cadastrado é: %s \n", Estado);
+    printf("O Estado cadastrado é: %s \n\n", Estado);
 
     //Cadastro e exibição do código da carta
 
-    printf("Insira o codigo da carta:\n");
+    printf("Insira o codigo da carta: ");
     scanf("%s", codigodacarta);
-    printf("O código da carta cadastrado é: %s\n", codigodacarta);
+    printf("O código da carta cadastrado é: %s\n\n", codigodacarta);
 
     //Cadastro e exibição do nome da cidade
 
-    printf("Insira o nome da cidade:\n");
+    printf("Insira o nome da cidade: ");
     scanf(" %s", nomedacidade);
-    printf("O nome cadastrado para a cidade é: %s\n", nomedacidade);
+    printf("O nome cadastrado para a cidade é: %s\n\n", nomedacidade);
 
     //Cadastro e exibição do número da população
 
-    printf("Insira o numero de população\n");
-    scanf(" %d", &populacao);
-    printf("O numero de população é: %d\n", populacao);  
+    printf("Insira o numero de população: ");
+    scanf("%d", &populacao);
+    printf("O numero de população é: %d\n\n", populacao);  
 
     //Cadastro e exibição da área da cidade
 
-    printf("Insira a area da cidade\n");
+    printf("Insira a area da cidade ");
     scanf("%f", &area);
-    printf("A área da cidade é: %f Km2\n",area );
+    printf("A área da cidade é: %f Km2\n\n",area );
 
     //Cadastro e exibição do PIB da cidade
 
-    printf("Insira o PIB da cidade:\n");
+    printf("Insira o PIB da cidade: ");
     scanf("%f", &pib);
-    printf("O PIB da cidade é: %f\n", pib);
+    printf("O PIB da cidade é: %f\n\n", pib);
 
     //Cadastro e exibição do número de pontos turísticos
 
-    printf("Insira a quantidade de pontos turisticos\n");
+    printf("Insira a quantidade de pontos turisticos ");
     scanf("%d", &numpontoturistico);
-    printf("A quantidade de pontos turisticos cadastrada é: %d\n", numpontoturistico);
+    printf("A quantidade de pontos turisticos cadastrada é: %d\n\n", numpontoturistico);
 
     //Calculo da densidade populacional
 
@@ -96,45 +96,45 @@ int main() {
 
     //cadastro e exibição do estado carta 2
 
-    printf("Insira um estado\n");
+    printf("Insira um estado ");
     scanf("%s", Estado2);
-    printf("O Estado cadastrado é: %s \n", Estado2);
+    printf("O Estado cadastrado é: %s \n\n", Estado2);
 
     //Cadastro e exibição do código da carta
 
-    printf("Insira o codigo da carta:\n");
+    printf("Insira o codigo da carta: ");
     scanf("%s", codigodacarta2);
-    printf("O código da carta cadastrado é: %s\n", codigodacarta2);
+    printf("O código da carta cadastrado é: %s\n\n", codigodacarta2);
 
     //Cadastro e exibição do nome da cidade
 
-    printf("Insira o nome da cidade:\n");
-    scanf(" %s", nomedacidade2);
-    printf("O nome cadastrado para a cidade é: %s\n", nomedacidade2);
+    printf("Insira o nome da cidade: ");
+    scanf("%s", nomedacidade2);
+    printf("O nome cadastrado para a cidade é: %s\n\n", nomedacidade2);
 
     //Cadastro e exibição do número da população
 
-    printf("Insira o numero de população\n");
-    scanf(" %d", &populacao2);
-    printf("O numero de população é: %d\n", populacao2);  
+    printf("Insira o numero de população: ");
+    scanf("%d", &populacao2);
+    printf("O numero de população é: %d\n\n", populacao2);  
 
     //Cadastro e exibição da área da cidade
 
-    printf("Insira a area da cidade\n");
+    printf("Insira a area da cidade ");
     scanf("%f", &area2);
-    printf("A área da cidade é: %f Km2\n",area2 );
+    printf("A área da cidade é: %f Km2\n\n",area2 );
 
     //Cadastro e exibição do PIB da cidade
 
-    printf("Insira o PIB da cidade:\n");
+    printf("Insira o PIB da cidade: ");
     scanf("%f", &pib2);
-    printf("O PIB da cidade é: %f\n", pib2);
+    printf("O PIB da cidade é: %f\n\n", pib2);
 
     //Cadastro e exibição do número de pontos turísticos
 
-    printf("Insira a quantidade de pontos turisticos\n");
+    printf("Insira a quantidade de pontos turisticos ");
     scanf("%d", &numpontoturistico2);
-    printf("A quantidade de pontos turisticos cadastrada é: %d\n", numpontoturistico2);
+    printf("A quantidade de pontos turisticos cadastrada é: %d\n\n", numpontoturistico2);
 
     //Calculo da densidade populacional
 
