@@ -35,6 +35,13 @@ int main() {
     float denpopulacional2;
     float pibpercapita2;
     double superpoder2;
+    int resultadopop = 0;
+    int resultadoarea = 0;
+    int resultadopib = 0;
+    int resultadonpt = 0;
+    int resultadoden = 0;
+    int resultadoppc = 0;
+    int resultadosuper = 0;
 
 
 
@@ -195,13 +202,8 @@ int main() {
     printf("PIB per Capita: %.2f \n", pibpercapita2);
     printf("Super Poder: %.2lf", superpoder2);
 
-    int resultadopop = 0;
-    int resultadoarea = 0;
-    int resultadopib = 0;
-    int resultadonpt = 0;
-    int resultadoden = 0;
-    int resultadoppc = 0;
-    int resultadosuper = 0;
+
+    //Área de comparação entre os atributos da cartas
 
     resultadopop = populacao > populacao2;
     resultadoarea = area > area2;
