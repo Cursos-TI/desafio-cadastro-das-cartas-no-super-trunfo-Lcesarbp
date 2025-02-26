@@ -21,7 +21,7 @@ int main() {
     int numpontoturistico;
     float denpopulacional;
     float pibpercapita;
-    double superpoder;
+    float superpoder;
 
     //Declaração de variaveis carta 2
 
@@ -34,7 +34,7 @@ int main() {
     int numpontoturistico2;
     float denpopulacional2;
     float pibpercapita2;
-    double superpoder2;
+    float superpoder2;
     int resultadopop = 0;
     int resultadoarea = 0;
     int resultadopib = 0;
@@ -107,7 +107,7 @@ int main() {
 
     //Calculo super poder
 
-    superpoder = (double) populacao + (double) area + (double) pib + (double) numpontoturistico + (double) denpopulacional + (double) pibpercapita;
+    superpoder = (float) populacao + area + pib + (float) numpontoturistico + (1/denpopulacional) + pibpercapita;
 
     ////cadastro dos atributos da carta 2
 
@@ -168,7 +168,7 @@ int main() {
 
     //Calculo super poder
 
-    superpoder2 = (double) populacao2 + (double) area2 + (double) pib2 + (double) numpontoturistico2 + (double) denpopulacional2 + (double) pibpercapita2;
+    superpoder2 = (float) populacao2 + area2 + pib2 + (float) numpontoturistico2 + (1/denpopulacional2) + pibpercapita2;
 
 
     //Exibição dos atributos das cartas cadastradas
