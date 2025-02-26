@@ -4,11 +4,11 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
 
    //Declaração de variaveis do código
+   //========================================================
 
    //Declaração de variaveis carta 1
 
@@ -45,9 +45,10 @@ int main() {
 
 
 
-    //cadastro e exibição do Estado
+    //cadastro dos atributos das cartas
+    //==============================================================
 
-    //cadastro e exibição do estado carta 1
+    //cadastro dos atributos da carta 1
 
     printf("\n==========================================================\n");
     printf("          CADASTRANDO AS INFORMAÇÕES DA CARTA 1\n");
@@ -93,6 +94,9 @@ int main() {
     scanf("%d", &numpontoturistico);
     printf("A quantidade de pontos turisticos cadastrada é: %d\n\n", numpontoturistico);
 
+    //Local dos calculos da carta 1
+    //===========================================
+
     //Calculo da densidade populacional
 
     denpopulacional = populacao / area;
@@ -105,7 +109,7 @@ int main() {
 
     superpoder = (double) populacao + (double) area + (double) pib + (double) numpontoturistico + (double) denpopulacional + (double) pibpercapita;
 
-    //cadastro e exibição do estado carta 2
+    ////cadastro dos atributos da carta 2
 
     printf("\n==========================================================\n");
     printf("          CADASTRANDO AS INFORMAÇÕES DA CARTA 2\n");
@@ -151,6 +155,9 @@ int main() {
     scanf("%d", &numpontoturistico2);
     printf("A quantidade de pontos turisticos cadastrada é: %d\n\n", numpontoturistico2);
 
+     //Local dos calculos da carta 1
+    //===========================================
+
     //Calculo da densidade populacional
 
     denpopulacional2 = populacao2 / area2;
@@ -162,8 +169,6 @@ int main() {
     //Calculo super poder
 
     superpoder2 = (double) populacao2 + (double) area2 + (double) pib2 + (double) numpontoturistico2 + (double) denpopulacional2 + (double) pibpercapita2;
-
-
 
 
     //Exibição dos atributos das cartas cadastradas
@@ -217,6 +222,8 @@ int main() {
     printf("           COMPARAÇÃO ENTRE AS CARTAS \n");
     printf("===========================================\n\n");
 
+    //Exibição dos resultados das comparações entre os atributos das cartas
+
     printf("Comparação entre População da carta 1 e carta 2 é: %d\n",resultadopop);
     printf("Comparação entre Área da carta 1 e carta 2 é: %d\n",resultadoarea);
     printf("Comparação entre PIB da carta 1 e carta 2 é: %d\n",resultadopib);
@@ -225,21 +232,6 @@ int main() {
     printf("Comparação entre PIB per Capita da carta 1 e carta 2 é: %d\n",resultadoppc);
     printf("Comparação entre Super Poder da carta 1 e carta 2 é: %d\n",resultadosuper);
 
-
-
-    
-
-
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
 }
