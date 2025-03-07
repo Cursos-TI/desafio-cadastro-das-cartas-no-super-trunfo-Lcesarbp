@@ -147,7 +147,7 @@ int main() {
 
     printf("Insira o PIB da cidade: ");
     scanf("%f", &pib2);
-    printf("O PIB da cidade é: %f\n\n", pib2);
+    printf("O PIB da cidade é: %.2f\n\n", pib2);
 
     //Cadastro e exibição do número de pontos turísticos
 
